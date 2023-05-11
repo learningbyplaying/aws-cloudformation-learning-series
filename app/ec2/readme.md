@@ -1,5 +1,5 @@
 
-# Creating a simple EC2
+# Creating a simple EC2 with Cloudformation
 
 
 ## 1. Create a keypair for access to the result EC2

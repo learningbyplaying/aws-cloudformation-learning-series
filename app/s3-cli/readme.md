@@ -1,5 +1,5 @@
 
-# Creating a simple S3 bucket from cli
+# Usign Cloudformation to create a S3 bucket with CLI
 
 
 ## 1. Create a User IAM:

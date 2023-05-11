@@ -1,0 +1,15 @@
+
+Parameters:
+  MyBucketName:
+    Type: String
+
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      #BucketName: 'aws-glue-learning-series-demo2'
+      BucketName: !Ref MyBucketName
+      
+Outputs:
+  BucketName:
+    Value: !Ref S3Bucket

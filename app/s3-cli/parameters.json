@@ -1,0 +1,6 @@
+[
+  {
+    "ParameterKey": "MyBucketName",
+    "ParameterValue": "aws-cloudfront-learning-series-demo2"
+  }
+]

@@ -18,8 +18,6 @@
 
 ## 3. Define the .yaml configuration
 
-### 1. Define the properties of the s3 bucket.
-
   Add to element "Resources" the s3 bucket "type = AWS::S3::Bucket":
 ```
 Resources:
@@ -69,7 +67,7 @@ Outputs:
     Value: !Ref S3Bucket
 ```
 
-## 4. Use the Cli 
+## 4. Use the Cli
 
 ```
 stack_name=demo2

@@ -11,7 +11,7 @@
 
 ## 2. Define the .yaml configuration
 
-### 1. Define the properties of the security group
+### Define the properties of the security group
 
   Add to element "Resources" the security group with "type = AWS::EC2::SecurityGroup":
 
@@ -30,7 +30,7 @@ Resources:
 
 ```
 
-### 2. Define the properties of the instance
+### Define the properties of the instance
 
   Add to element "Resources" the instance with "type = AWS::EC2::Instance":
 
@@ -50,7 +50,7 @@ Resources:
 ```
 
 
-### 3. Define the Parameters
+### Define the Parameters
 
 ```
 

@@ -5,14 +5,19 @@
 
 ## 1. Setup the project
 
-  a) Up the docker-compose:
+  a) Requirements:
+
+    - Install docker
+    - Install docker compose
+
+  b) Up the docker-compose:
 
 ```
   cd $PATH_PROJECT
   docker-compose up -d
 ```
 
-  b) Create the credentials with a key of a programmatic user that has full access to cloudformation:
+  c) Create the credentials with a key of a programmatic user that has full access to cloudformation:
 
 ```
   cp $PATH_PROJECT/app/.env.backup $PATH_PROJECT/app/.env

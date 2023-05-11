@@ -4,7 +4,7 @@
 
 ## 1. Create a keypair for access to the result EC2
 
-  In my case I will create a keypari called "demo1".
+  In my case I will create a keypair called "demo1".
 
   Do it on https://eu-west-1.console.aws.amazon.com/ec2/home?region=eu-west-1#KeyPairs:
 
